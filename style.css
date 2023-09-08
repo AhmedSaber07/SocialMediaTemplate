@@ -1,0 +1,43 @@
+body
+{
+    background-color: #f5f7f8;
+}
+nav
+{
+    background-color: #4d636f;
+}
+.accordion-button.collapsed {
+    background:#7d97a5;
+}
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+background-image: unset !important;
+}
+.acc-img
+{
+width:60px;
+height: 50px;
+}
+nav a i
+{
+color:white;
+}
+nav a:hover
+{
+background-color: white;
+}
+nav a i:hover
+{
+color:black;
+}
+.head::after
+{ 
+content: "";
+position: absolute;
+background-color: #3a4b53;
+width:90px;
+top:0px;
+height: 55px;
+left:0px;
+opacity: 0.7;
+}
